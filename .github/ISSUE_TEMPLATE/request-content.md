@@ -8,4 +8,5 @@ about: Request for new content (lectures, journal club, MHSG knowledge, etc)
 
 **Due**:
 
+
 Make sure you assign the appropriate label and project before you submit the issue!
