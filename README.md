@@ -13,18 +13,24 @@ The knowledge management repository would be communally owned, so to speak; all 
 # Use of Issues and Knowledge Management Projects
 Projects would be set up for each content type (lectures, journal clubs, MHS Genesis stuff, etc).
 
-Issues would be used to request content. Issue labels ("lecture request" etc) allow easy sorting of work, and assigning the issue to the corresponding project automatically moves it through a To Do - In Progress - Done workflow on the Kanban board. 
+Issues would be used to request content. Issue labels ("lecture request" etc) allow easy sorting of work. 
+
+**Automation With Project Boards**:
+* New issues assigned to a project automatically show up on its To Do list.
+* Issues that are closed are automatically moved to its Done list.
+* Closed issues that are re-opened are automatically moved to its In Progress list.
 
 **Use case 1**: 
 * Dr. Marshall submits issues for each lecture topic the fellows need to cover. 
 * The issues appear in the To Do list on the Lecture Content project board. 
-* Fellows are notified of the new requests and claim a topic by assigning the issue to themselves. 
-* This automatically moves the issue to the "In Progress" list. 
-* When the fellow submits the lecture, the task is dragged to the "Done" list and the issue is automatically closed. 
+* Fellows are notified of the new requests and claim a topic by assigning the issue to themselves and moving it to the "Assigned" list.
+* The fellow submits the lecture and closes the issue, automatically moving it to the "Done" list.
 
 **Use case 2**: 
 * Darshan learns that the ED is trying to fix a broken widget in FirstNet, and no-one knows how to fix it.
 * Darshan submits an issue with the "need info" label to the MHSG project; the request moves to the "To Do" list
+* Darshan claims the issue and moves it to "In Progress"
 * Justin knows part of the fix, and comments directly on the issue without claiming it
-* Darshan claims the issue (moving it to "In Progress"), comes up with the solution, and moves it to "Done"
-* Darshan creates a wiki page to document our new FirstNet knowledge
+* Darshan and Justin discuss the problem in the issue comments
+* A solution is found, and Darshan closes the issue (automatically moving it to "Done").
+* David creates a wiki page to document our new FirstNet knowledge from Darshan's issue comments
