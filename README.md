@@ -35,9 +35,14 @@ Issues would be used to request content. Issue labels ("lecture request" etc) al
 * A solution is found, and Darshan closes the issue (automatically moving it to "Done").
 * David creates a wiki page to document our new FirstNet knowledge from Darshan's issue comments
 
-# Things To Look Into
+# Other GitHub Capabilities To Look Into
 **[GitHub Desktop](https://desktop.github.com/)**: opensource, cross-platform GUI for working with Git/GitHub without the command line
 
 **[GitHub Pages](https://pages.github.com/)**: we're allowed to have one [website per organization/account and unlimited project websites](https://help.github.com/articles/user-organization-and-project-pages/). [Jekyll](https://help.github.com/articles/about-jekyll-themes-on-github/) is supported for themes and blogs, and naturally it supports whatever you can pull off in HTML/CSS.
 * The Good: it's free and hosted in the repository, making it easy to update
 * The Bad: it's statically hosted and doesn't support server-side scripting
+
+**[Webhooks](https://developer.github.com/webhooks/)**: GitHub supports a variety of webhooks, though I'm not sure what we would use them for. Here's a [good primer](https://codeburst.io/whats-a-webhook-1827b07a3ffa). 
+
+**[GitHub Apps](https://developer.github.com/apps/differences-between-apps/#about-github-apps/)**: These integrate GitHub with third party services. Apps can be found at the [marketplace](https://github.com/marketplace), including a [project management page](https://github.com/marketplace/category/project-management). This would allow integration with Jira, for example, or [CodeTree](https://github.com/marketplace/codetree), which would allow us to manage issues from multiple repositories in a single screen. This might be useful as we accumulate project repositories. However, most of the third-party services have their own fees.
+* [ImgBot](https://github.com/marketplace/imgbot) losslessly compresses images in your repository and is free!
