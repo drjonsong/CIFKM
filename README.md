@@ -34,3 +34,10 @@ Issues would be used to request content. Issue labels ("lecture request" etc) al
 * Darshan and Justin discuss the problem in the issue comments
 * A solution is found, and Darshan closes the issue (automatically moving it to "Done").
 * David creates a wiki page to document our new FirstNet knowledge from Darshan's issue comments
+
+# Things To Look Into
+**[GitHub Desktop](https://desktop.github.com/)**: opensource, cross-platform GUI for working with Git/GitHub without the command line
+
+**[GitHub Pages](https://pages.github.com/)**: we're allowed to have one [website per organization/account and unlimited project websites](https://help.github.com/articles/user-organization-and-project-pages/).
+* The Good: it's free and hosted in the repository, making it easy to update
+* The Bad: it's statically hosted and doesn't support server-side scripting
