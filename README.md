@@ -38,6 +38,6 @@ Issues would be used to request content. Issue labels ("lecture request" etc) al
 # Things To Look Into
 **[GitHub Desktop](https://desktop.github.com/)**: opensource, cross-platform GUI for working with Git/GitHub without the command line
 
-**[GitHub Pages](https://pages.github.com/)**: we're allowed to have one [website per organization/account and unlimited project websites](https://help.github.com/articles/user-organization-and-project-pages/).
+**[GitHub Pages](https://pages.github.com/)**: we're allowed to have one [website per organization/account and unlimited project websites](https://help.github.com/articles/user-organization-and-project-pages/). [Jekyll](https://help.github.com/articles/about-jekyll-themes-on-github/) is supported for themes and blogs, and naturally it supports whatever you can pull off in HTML/CSS.
 * The Good: it's free and hosted in the repository, making it easy to update
 * The Bad: it's statically hosted and doesn't support server-side scripting
